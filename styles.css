@@ -1,0 +1,66 @@
+html {
+    font-family: sans-serif;
+}
+
+body {
+    background-image: url(modern-abstract-flat-geometric-liquid-shapes-background-free-vector.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.main {
+    height: 100vh;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 40%;
+    background-color: rgba(245, 245, 245, 0.802);
+    border: 1px solid grey;
+    padding: 80px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+label {
+    color: darkslategray;
+    font-weight: 500;
+}
+
+input {
+    margin: 15px 0px;
+}
+
+input {
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding-right: 100px;
+}
+
+
+input:focus {
+    border: 1px solid rgb(84, 182, 221);
+    outline: none;
+    outline: 1px solid rgb(84, 182, 221);
+}
+
+button {
+    color: white;
+    border: none;
+    background-color: rgb(41, 85, 217);
+    padding: 10px;
+    border-radius: 6px;
+
+}
+
+@media only screen and (max-width: 350px) {
+    input {
+        padding-right: 50px;
+
+    }
+}
